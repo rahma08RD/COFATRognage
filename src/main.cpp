@@ -5,7 +5,7 @@
 // PIN_25 = control pin for cylinder recoil
 // PIN_19 = control pin for main engine
 // PIN_2 = control pin for hood safety sensor
-// PIN_3 = control pin for the start cycle button
+// PIN_14 = control pin for the start cycle button
 #include <Arduino.h>
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
@@ -17,7 +17,7 @@ LiquidCrystal_I2C lcd(0x27, 16, 2);
 const int MOTORprincip_PIN = 19;
 const int MOTORsec_PIN = 26;
 const int s1_PIN = 4;
-const int dcy_PIN = 3;
+const int dcy_PIN =14;
 const int electrovanne_PIN = 5;
 const int cp_PIN = 2;
 const int verinsortie_PIN = 33;    // LED for cylinder output
